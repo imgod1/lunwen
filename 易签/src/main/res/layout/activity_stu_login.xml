@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.StuOpenActivity">
+
+    <LinearLayout
+        android:id="@+id/wifiap_ly_wifistatus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ab_solid_dark_holo">
+
+        <TextView
+            android:id="@+id/wifiap_tv_wifistatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textSize="18sp">
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/wifiap_lv_wifi"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wifiap_footer"
+        android:layout_below="@id/wifiap_ly_wifistatus"/>
+
+    <LinearLayout
+        android:id="@+id/wifiap_footer"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_unlogin_bar"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="4dp">
+
+
+        <Button
+            android:id="@+id/wifi_btn_create"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bottombar"
+            android:text="打开热点"
+            android:textColor="@color/profile_bottom_text_color"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/wifi_btn_next"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bottombar"
+            android:text="下一步"
+            android:textColor="@color/profile_bottom_text_color"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

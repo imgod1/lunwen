@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.du.easysignin.activity.StuRegistActivity">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_lancher_white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学号："
+            android:textSize="25sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/regist_et_idcard"
+            android:hint="请输入学号：（此为登录帐号）"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码："
+            android:textSize="25sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/regist_et_password"
+
+            android:hint="请输入密码："
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/regist_et_name"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:hint="请输入真实姓名："
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_welcome_ctrlbar"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/regist_bt_regist"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="42dip"
+            android:layout_marginLeft="9dip"
+            android:layout_marginRight="9dip"
+            android:background="@drawable/btn_bottombar"
+            android:gravity="center"
+            android:text="确认注册"
+            android:textColor="@color/profile_bottom_text_color"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

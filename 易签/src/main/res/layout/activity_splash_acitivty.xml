@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/pic_index_bg"
+    tools:context=".activity.SplashAcitivty">
+
+    <ImageView
+
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/ic_log_white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/welcome_linear_ctrlbar"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_welcome_ctrlbar"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/welcome_btn_login_stu"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="42dip"
+            android:layout_marginLeft="9dip"
+            android:layout_marginRight="9dip"
+            android:background="@drawable/btn_bottombar"
+            android:gravity="center"
+            android:text="@string/welcome_btn_loginstudent"
+            android:textColor="@color/profile_bottom_text_color"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/welcome_btn_login_tea"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="42dip"
+            android:layout_marginLeft="9dip"
+            android:layout_marginRight="9dip"
+            android:background="@drawable/btn_bottombar"
+            android:gravity="center"
+            android:text="@string/welcome_btn_loginteacher"
+            android:textColor="@color/profile_bottom_text_color"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

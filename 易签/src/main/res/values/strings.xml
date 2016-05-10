@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">易签</string>
+
+    <!--欢迎页面-->
+    <string name="welcome_btn_loginstudent">学生登录</string>
+    <string name="welcome_btn_loginteacher">教师登录</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="wifiap_dialog_createap_nonsupport">您的设备不支持热点创建</string>
+    <string name="wifiap_dialog_createap_closewifi_confirm">创建热点会关闭当前的WiFi，确认继续？</string>
+    <string name="wifiap_dialog_closeap_confirm">您确定需要关闭当前热点并开启新热点？</string>
+    <string name="dialog_tips">Wifi提示</string>
+    <string name="wifiap_text_ap_0">热点已关闭</string>
+    <string name="wifiap_text_wifi_1_0">WiFi已开启，未连接</string>
+    <string name="wifiap_btn_createap">创建热点</string>
+    <string name="wifiap_text_createap_creating">正在创建热点&#8230;</string>
+    <string name="wifiap_text_wifi_connected">已连接到 </string>
+    <string name="wifiap_text_ap_1">已开启热点</string>
+    <string name="wifiap_btn_closeap">关闭热点</string>
+    <string name="wifiap_text_wifi_0">WiFi未开启</string>
+    <string name="wifiap_text_wifi_disconnect">WiFi连接已断开</string>
+    <string name="wifiap_btn_connecting">正在连接 </string>
+    <string name="wifiap_toast_connectap_error_1">连接错误，请尝试重新连接。</string>
+    <string name="wifiap_hint_connectap_pwd">请输入连接密码</string>
+    <string name="wifiap_diolog_showpwd">显示密码</string>
+    <string name="btn_yes">确    定</string>
+    <string name="btn_add">添    加</string>
+    <string name="btn_cancel">取    消</string>
+    <string name="wifiap_btn_connectwifi">连 接</string>
+    <string name="wifiap_toast_connectap_unavailable">请连接到一个热点……</string>
+
+
+</resources>

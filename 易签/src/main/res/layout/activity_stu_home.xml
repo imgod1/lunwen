@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/normal_bg"
+
+    tools:context="com.du.easysignin.activity.StuHomeActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_stu_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/rg_group_stu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/bottom_tab_bg"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/stu_home_rd1"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/bt_home_tab"
+            android:text="首页"/>
+
+        <RadioButton
+            android:id="@+id/stu_home_rd2"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_news_selector"
+            android:text="新闻中心"/>
+
+        <RadioButton
+            android:id="@+id/stu_home_rd3"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_smart_selector"
+            android:text="智慧服务"/>
+
+
+        <RadioButton
+            android:id="@+id/stu_home_rd4"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_setting_selector"
+            android:text="设置"/>
+    </RadioGroup>
+</LinearLayout>
